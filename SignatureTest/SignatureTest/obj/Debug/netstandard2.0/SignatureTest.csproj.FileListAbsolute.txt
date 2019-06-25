@@ -1,0 +1,12 @@
+D:\Programming\CSharp\Practice\Xamarin\SignatureTest\SignatureTest\SignatureTest\bin\Debug\netstandard2.0\SignatureTest.deps.json
+D:\Programming\CSharp\Practice\Xamarin\SignatureTest\SignatureTest\SignatureTest\bin\Debug\netstandard2.0\SignatureTest.dll
+D:\Programming\CSharp\Practice\Xamarin\SignatureTest\SignatureTest\SignatureTest\obj\Debug\netstandard2.0\SignatureTest.csprojAssemblyReference.cache
+D:\Programming\CSharp\Practice\Xamarin\SignatureTest\SignatureTest\SignatureTest\obj\Debug\netstandard2.0\App.xaml.g.cs
+D:\Programming\CSharp\Practice\Xamarin\SignatureTest\SignatureTest\SignatureTest\obj\Debug\netstandard2.0\MainPage.xaml.g.cs
+D:\Programming\CSharp\Practice\Xamarin\SignatureTest\SignatureTest\SignatureTest\obj\Debug\netstandard2.0\SignatureTest.csproj.CoreCompileInputs.cache
+D:\Programming\CSharp\Practice\Xamarin\SignatureTest\SignatureTest\SignatureTest\obj\Debug\netstandard2.0\SignatureTest.AssemblyInfoInputs.cache
+D:\Programming\CSharp\Practice\Xamarin\SignatureTest\SignatureTest\SignatureTest\obj\Debug\netstandard2.0\SignatureTest.AssemblyInfo.cs
+D:\Programming\CSharp\Practice\Xamarin\SignatureTest\SignatureTest\SignatureTest\bin\Debug\netstandard2.0\SignatureTest.pdb
+D:\Programming\CSharp\Practice\Xamarin\SignatureTest\SignatureTest\SignatureTest\obj\Debug\netstandard2.0\XamlC.stamp
+D:\Programming\CSharp\Practice\Xamarin\SignatureTest\SignatureTest\SignatureTest\obj\Debug\netstandard2.0\SignatureTest.dll
+D:\Programming\CSharp\Practice\Xamarin\SignatureTest\SignatureTest\SignatureTest\obj\Debug\netstandard2.0\SignatureTest.pdb
