@@ -9,7 +9,7 @@
     <StackLayout>
         <controls:SignaturePadView
                 x:Name="signatureView"
-            HeightRequest="150"
+            HeightRequest="150" CaptionText="서명" ClearText="초기화"
                 CaptionTextColor="#B8860B" ClearTextColor="#B8860B" PromptTextColor="#B8860B"
                 SignatureLineColor="#B8860B" BackgroundColor="#FAFAD2" />
 

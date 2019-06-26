@@ -1,0 +1,1 @@
+D:\Programming\CSharp\Practice\Xamarin\SignatureTest\SignatureTest\SignatureTest.UWP\SignatureTest.UWP.csproj;x86

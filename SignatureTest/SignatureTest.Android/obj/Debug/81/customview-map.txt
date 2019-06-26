@@ -1,0 +1,5 @@
+ImageView;D:\Programming\CSharp\Practice\Xamarin\SignatureTest\SignatureTest\SignatureTest.Android\obj\Debug\81\lp\3\jl\res\layout\signature_pad_layout.xml
+merge;D:\Programming\CSharp\Practice\Xamarin\SignatureTest\SignatureTest\SignatureTest.Android\obj\Debug\81\lp\3\jl\res\layout\signature_pad_layout.xml
+TextView;D:\Programming\CSharp\Practice\Xamarin\SignatureTest\SignatureTest\SignatureTest.Android\obj\Debug\81\lp\3\jl\res\layout\signature_pad_layout.xml
+View;D:\Programming\CSharp\Practice\Xamarin\SignatureTest\SignatureTest\SignatureTest.Android\obj\Debug\81\lp\3\jl\res\layout\signature_pad_layout.xml
+Xamarin.Controls.SignaturePadCanvasView;D:\Programming\CSharp\Practice\Xamarin\SignatureTest\SignatureTest\SignatureTest.Android\obj\Debug\81\lp\3\jl\res\layout\signature_pad_layout.xml

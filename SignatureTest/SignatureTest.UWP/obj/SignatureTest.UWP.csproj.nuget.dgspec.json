@@ -1,0 +1,177 @@
+{
+  "format": 1,
+  "restore": {
+    "D:\\Programming\\CSharp\\Practice\\Xamarin\\SignatureTest\\SignatureTest\\SignatureTest.UWP\\SignatureTest.UWP.csproj": {}
+  },
+  "projects": {
+    "D:\\Programming\\CSharp\\Practice\\Xamarin\\SignatureTest\\SignatureTest\\SignatureTest.UWP\\SignatureTest.UWP.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\Programming\\CSharp\\Practice\\Xamarin\\SignatureTest\\SignatureTest\\SignatureTest.UWP\\SignatureTest.UWP.csproj",
+        "projectName": "SignatureTest.UWP",
+        "projectPath": "D:\\Programming\\CSharp\\Practice\\Xamarin\\SignatureTest\\SignatureTest\\SignatureTest.UWP\\SignatureTest.UWP.csproj",
+        "packagesPath": "C:\\Users\\Administrator\\.nuget\\packages\\",
+        "outputPath": "D:\\Programming\\CSharp\\Practice\\Xamarin\\SignatureTest\\SignatureTest\\SignatureTest.UWP\\obj\\",
+        "projectStyle": "PackageReference",
+        "skipContentFileWrite": true,
+        "fallbackFolders": [
+          "C:\\Microsoft\\Xamarin\\NuGet\\",
+          "C:\\Program Files (x86)\\Microsoft SDKs\\UWPNuGetPackages\\"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Administrator\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "uap10.0.16299"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "uap10.0.16299": {
+            "projectReferences": {
+              "D:\\Programming\\CSharp\\Practice\\Xamarin\\SignatureTest\\SignatureTest\\SignatureTest\\SignatureTest.csproj": {
+                "projectPath": "D:\\Programming\\CSharp\\Practice\\Xamarin\\SignatureTest\\SignatureTest\\SignatureTest\\SignatureTest.csproj"
+              }
+            }
+          }
+        }
+      },
+      "frameworks": {
+        "uap10.0.16299": {
+          "dependencies": {
+            "Microsoft.IdentityModel.Clients.ActiveDirectory": {
+              "target": "Package",
+              "version": "[5.1.0, )"
+            },
+            "Microsoft.NETCore.UniversalWindowsPlatform": {
+              "target": "Package",
+              "version": "[6.1.5, )"
+            },
+            "System.Drawing.Common": {
+              "target": "Package",
+              "version": "[4.5.1, )"
+            },
+            "WindowsAzure.Storage": {
+              "target": "Package",
+              "version": "[9.3.3, )"
+            },
+            "Xamarin.Controls.SignaturePad.Forms": {
+              "target": "Package",
+              "version": "[3.0.0, )"
+            },
+            "Xamarin.Forms": {
+              "target": "Package",
+              "version": "[3.4.0.1008975, )"
+            }
+          },
+          "imports": [
+            "net461"
+          ],
+          "assetTargetFallback": true,
+          "warn": true
+        }
+      },
+      "runtimes": {
+        "win10-arm": {
+          "#import": []
+        },
+        "win10-arm-aot": {
+          "#import": []
+        },
+        "win10-arm64-aot": {
+          "#import": []
+        },
+        "win10-x64": {
+          "#import": []
+        },
+        "win10-x64-aot": {
+          "#import": []
+        },
+        "win10-x86": {
+          "#import": []
+        },
+        "win10-x86-aot": {
+          "#import": []
+        }
+      }
+    },
+    "D:\\Programming\\CSharp\\Practice\\Xamarin\\SignatureTest\\SignatureTest\\SignatureTest\\SignatureTest.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\Programming\\CSharp\\Practice\\Xamarin\\SignatureTest\\SignatureTest\\SignatureTest\\SignatureTest.csproj",
+        "projectName": "SignatureTest",
+        "projectPath": "D:\\Programming\\CSharp\\Practice\\Xamarin\\SignatureTest\\SignatureTest\\SignatureTest\\SignatureTest.csproj",
+        "packagesPath": "C:\\Users\\Administrator\\.nuget\\packages\\",
+        "outputPath": "D:\\Programming\\CSharp\\Practice\\Xamarin\\SignatureTest\\SignatureTest\\SignatureTest\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Microsoft\\Xamarin\\NuGet\\",
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Administrator\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netstandard2.0": {
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netstandard2.0": {
+          "dependencies": {
+            "Microsoft.IdentityModel.Clients.ActiveDirectory": {
+              "target": "Package",
+              "version": "[5.1.0, )"
+            },
+            "NETStandard.Library": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.0.3, )",
+              "autoReferenced": true
+            },
+            "System.Drawing.Common": {
+              "target": "Package",
+              "version": "[4.5.1, )"
+            },
+            "WindowsAzure.Storage": {
+              "target": "Package",
+              "version": "[9.3.3, )"
+            },
+            "Xamarin.Controls.SignaturePad.Forms": {
+              "target": "Package",
+              "version": "[3.0.0, )"
+            },
+            "Xamarin.Forms": {
+              "target": "Package",
+              "version": "[3.4.0.1008975, )"
+            }
+          },
+          "imports": [
+            "net461"
+          ],
+          "assetTargetFallback": true,
+          "warn": true
+        }
+      }
+    }
+  }
+}

@@ -6,6 +6,7 @@ using System.Threading.Tasks;
 using Xamarin.Forms;
 using SignaturePad.Forms;
 using System.IO;
+using System.Drawing;
 
 namespace SignatureTest
 {
@@ -31,8 +32,18 @@ namespace SignatureTest
 
         private async void BtnSaveImage_Clicked(object sender, EventArgs e)
         {
-              var  stream = await signatureView.GetImageStreamAsync(SignatureImageFormat.Png);
-              myImage.Source = ImageSource.FromStream(() => stream);
+            try
+            {
+                var  stream = await signatureView.GetImageStreamAsync(SignatureImageFormat.Png);
+                AzureOperations db = new AzureOperations();
+                await db.UploadFIleAsnyc(stream);
+
+            }
+            catch(Exception ex)
+            {
+               await Application.Current.MainPage.DisplayAlert("error", ex.ToString(),"cancel");
+            }
+
         }
 
         private void Button_Clicked(object sender, EventArgs e)
