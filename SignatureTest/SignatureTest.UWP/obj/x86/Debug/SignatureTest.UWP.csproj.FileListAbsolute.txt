@@ -309,3 +309,9 @@ D:\Programming\CSharp\Practice\Xamarin\SignatureTest\SignatureTest\SignatureTest
 D:\Programming\CSharp\Practice\Xamarin\SignatureTest\SignatureTest\SignatureTest.UWP\obj\x86\Debug\ProjectArchitectures.txt
 D:\Programming\CSharp\Practice\Xamarin\SignatureTest\SignatureTest\SignatureTest.UWP\obj\x86\Debug\.winmd_cache\$Microsoft.Graphics.Canvas.winmd_636340105040000000.json
 D:\Programming\CSharp\Practice\Xamarin\SignatureTest\SignatureTest\SignatureTest.UWP\obj\x86\Debug\.winmd_cache\$Microsoft.UI.Xaml.Markup.winmd_636758228200000000.json
+D:\Programming\CSharp\Practice\Xamarin\SignatureTest\SignatureTest\SignatureTest.UWP\bin\x86\Debug\Microsoft.IdentityModel.Clients.ActiveDirectory.dll
+D:\Programming\CSharp\Practice\Xamarin\SignatureTest\SignatureTest\SignatureTest.UWP\bin\x86\Debug\Microsoft.IdentityModel.Clients.ActiveDirectory.pdb
+D:\Programming\CSharp\Practice\Xamarin\SignatureTest\SignatureTest\SignatureTest.UWP\bin\x86\Debug\Newtonsoft.Json.dll
+D:\Programming\CSharp\Practice\Xamarin\SignatureTest\SignatureTest\SignatureTest.UWP\bin\x86\Debug\Microsoft.WindowsAzure.Storage.dll
+D:\Programming\CSharp\Practice\Xamarin\SignatureTest\SignatureTest\SignatureTest.UWP\bin\x86\Debug\Microsoft.WindowsAzure.Storage.pdb
+D:\Programming\CSharp\Practice\Xamarin\SignatureTest\SignatureTest\SignatureTest.UWP\obj\x86\Debug\Microsoft.IdentityModel.Clients.ActiveDirectory.pri.xml

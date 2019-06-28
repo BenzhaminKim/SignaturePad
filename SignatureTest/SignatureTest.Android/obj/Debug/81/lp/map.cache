@@ -1,4 +1,5 @@
 FormsViewGroup
+Microsoft.IdentityModel.Clients.ActiveDirectory
 Microsoft.WindowsAzure.Storage
 Newtonsoft.Json
 SignaturePad
@@ -13,6 +14,7 @@ Xamarin.Android.Support.Annotations
 Xamarin.Android.Support.Compat
 Xamarin.Android.Support.Core.UI
 Xamarin.Android.Support.Core.Utils
+Xamarin.Android.Support.CustomTabs
 Xamarin.Android.Support.Design
 Xamarin.Android.Support.Fragment
 Xamarin.Android.Support.Media.Compat
@@ -24,6 +26,7 @@ Xamarin.Android.Support.v7.MediaRouter
 Xamarin.Android.Support.v7.Palette
 Xamarin.Android.Support.v7.RecyclerView
 Xamarin.Android.Support.Vector.Drawable
+Xamarin.Essentials
 Xamarin.Forms.Core
 Xamarin.Forms.Platform.Android
 Xamarin.Forms.Platform
@@ -50,12 +53,3 @@ System.IO.FileSystem.Primitives
 System.IO.FileSystem
 System.Security.Cryptography.Primitives
 System.Threading.Timer
-Microsoft.IdentityModel.Clients.ActiveDirectory
-Xamarin.Android.Support.CustomTabs
-Hyak.Common
-Microsoft.Azure.Common
-Microsoft.Threading.Tasks
-Microsoft.Threading.Tasks.Extensions
-Microsoft.WindowsAzure.Management
-System.Net.Http.Extensions
-System.Net.Http.Primitives

@@ -15,6 +15,8 @@ D:\Programming\CSharp\Practice\Xamarin\SignatureTest\SignatureTest\SignatureTest
 D:\Programming\CSharp\Practice\Xamarin\SignatureTest\SignatureTest\SignatureTest.Android\obj\Debug\81\android\assets\System.IdentityModel.dll
 D:\Programming\CSharp\Practice\Xamarin\SignatureTest\SignatureTest\SignatureTest.Android\obj\Debug\81\android\assets\System.IO.Compression.dll
 D:\Programming\CSharp\Practice\Xamarin\SignatureTest\SignatureTest\SignatureTest.Android\obj\Debug\81\android\assets\System.Net.Http.dll
+D:\Programming\CSharp\Practice\Xamarin\SignatureTest\SignatureTest\SignatureTest.Android\obj\Debug\81\android\assets\System.Numerics.dll
+D:\Programming\CSharp\Practice\Xamarin\SignatureTest\SignatureTest\SignatureTest.Android\obj\Debug\81\android\assets\System.Numerics.Vectors.dll
 D:\Programming\CSharp\Practice\Xamarin\SignatureTest\SignatureTest\SignatureTest.Android\obj\Debug\81\android\assets\System.Runtime.Serialization.dll
 D:\Programming\CSharp\Practice\Xamarin\SignatureTest\SignatureTest\SignatureTest.Android\obj\Debug\81\android\assets\System.Xml.dll
 D:\Programming\CSharp\Practice\Xamarin\SignatureTest\SignatureTest\SignatureTest.Android\obj\Debug\81\android\assets\System.Xml.Linq.dll
@@ -38,6 +40,7 @@ D:\Programming\CSharp\Practice\Xamarin\SignatureTest\SignatureTest\SignatureTest
 D:\Programming\CSharp\Practice\Xamarin\SignatureTest\SignatureTest\SignatureTest.Android\obj\Debug\81\android\assets\Xamarin.Android.Support.v7.Palette.dll
 D:\Programming\CSharp\Practice\Xamarin\SignatureTest\SignatureTest\SignatureTest.Android\obj\Debug\81\android\assets\Xamarin.Android.Support.v7.RecyclerView.dll
 D:\Programming\CSharp\Practice\Xamarin\SignatureTest\SignatureTest\SignatureTest.Android\obj\Debug\81\android\assets\Xamarin.Android.Support.Vector.Drawable.dll
+D:\Programming\CSharp\Practice\Xamarin\SignatureTest\SignatureTest\SignatureTest.Android\obj\Debug\81\android\assets\Xamarin.Essentials.dll
 D:\Programming\CSharp\Practice\Xamarin\SignatureTest\SignatureTest\SignatureTest.Android\obj\Debug\81\android\assets\Xamarin.Forms.Core.dll
 D:\Programming\CSharp\Practice\Xamarin\SignatureTest\SignatureTest\SignatureTest.Android\obj\Debug\81\android\assets\Xamarin.Forms.Platform.Android.dll
 D:\Programming\CSharp\Practice\Xamarin\SignatureTest\SignatureTest\SignatureTest.Android\obj\Debug\81\android\assets\Xamarin.Forms.Platform.dll
@@ -69,7 +72,6 @@ D:\Programming\CSharp\Practice\Xamarin\SignatureTest\SignatureTest\SignatureTest
 D:\Programming\CSharp\Practice\Xamarin\SignatureTest\SignatureTest\SignatureTest.Android\obj\Debug\81\android\assets\System.Runtime.Serialization.Primitives.dll
 D:\Programming\CSharp\Practice\Xamarin\SignatureTest\SignatureTest\SignatureTest.Android\obj\Debug\81\android\assets\System.Reflection.Extensions.dll
 D:\Programming\CSharp\Practice\Xamarin\SignatureTest\SignatureTest\SignatureTest.Android\obj\Debug\81\android\assets\System.Runtime.Numerics.dll
-D:\Programming\CSharp\Practice\Xamarin\SignatureTest\SignatureTest\SignatureTest.Android\obj\Debug\81\android\assets\System.Numerics.dll
 D:\Programming\CSharp\Practice\Xamarin\SignatureTest\SignatureTest\SignatureTest.Android\obj\Debug\81\android\assets\System.Xml.XmlDocument.dll
 D:\Programming\CSharp\Practice\Xamarin\SignatureTest\SignatureTest\SignatureTest.Android\obj\Debug\81\android\assets\System.ComponentModel.TypeConverter.dll
 D:\Programming\CSharp\Practice\Xamarin\SignatureTest\SignatureTest\SignatureTest.Android\obj\Debug\81\android\assets\System.Dynamic.Runtime.dll

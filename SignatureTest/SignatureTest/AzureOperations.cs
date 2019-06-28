@@ -28,8 +28,9 @@ namespace SignatureTest
         {
             var uniqueBlobName = Guid.NewGuid().ToString();
             uniqueBlobName += ".png";
-
-            var blobRef = _testContainer.GetBlockBlobReference(uniqueBlobName);
+            var todayDate = DateTime.Today.ToShortDateString();
+            var directory = _testContainer.GetDirectoryReference(todayDate);
+            var blobRef = directory.GetBlockBlobReference(uniqueBlobName);
             await blobRef.UploadFromStreamAsync(stream);
         }
     }

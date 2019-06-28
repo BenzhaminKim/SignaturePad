@@ -23,8 +23,11 @@ namespace SignatureTest.Droid
 {
     public class SaveImageDependency : ISaveImageDependency
     {
+        public string GetLocalPath()
+        {
+            return Android.App.Application.Context.GetExternalFilesDir(null).AbsolutePath;
+        }
 
-    
         public async Task<bool> SaveImage(string directory, string filename, ImageSource img)
         {
             var image = new Image();
@@ -32,16 +35,42 @@ namespace SignatureTest.Droid
             var renderer = new Xamarin.Forms.Platform.Android.StreamImagesourceHandler();
             Bitmap photo = await renderer.LoadImageAsync(img, Android.App.Application.Context);
 
+            var documentsPath = Android.App.Application.Context.GetExternalFilesDir(null).AbsolutePath;
+            var filePath = System.IO.Path.Combine(documentsPath, filename);
 
-            var documentsPath = System.Environment.GetFolderPath(System.Environment.SpecialFolder.MyDocuments);
-            var filePath = System.IO.Path.Combine(documentsPath, "test.png");
-            var stream = new FileStream(filePath, FileMode.OpenOrCreate,FileAccess.ReadWrite);
-            photo.Compress(Bitmap.CompressFormat.Png, 100, stream);
-            stream.Close();
+            bool success;
 
-            return true;
+            using(FileStream outputStream = new FileStream(filePath,FileMode.Create))
+            {
+               success = await photo.CompressAsync(Bitmap.CompressFormat.Png, 100, outputStream);
+             
+            }
+
+
+            return success;
 
         }
 
+        public void SavePicture(string name, Stream data, string location = "temp")
+        {
+            String documentsPath = Android.App.Application.Context.GetExternalFilesDir(null).AbsolutePath;
+
+
+            documentsPath = System.IO.Path.Combine(documentsPath,  "Orders", location);
+            Directory.CreateDirectory(documentsPath);
+
+            string filePath = System.IO.Path.Combine(documentsPath, name);
+
+            byte[] bArray = new byte[data.Length];
+            using (FileStream fs = new FileStream(filePath, FileMode.OpenOrCreate))
+            {
+                using (data)
+                {
+                    data.Read(bArray, 0, (int)data.Length);
+                }
+                int length = bArray.Length;
+                fs.Write(bArray, 0, length);
+            }
+        }
     }
 }

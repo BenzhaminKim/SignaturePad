@@ -19,7 +19,7 @@
 
         <Button Text="Change Text" Clicked="Button_Clicked" />
 
-        <Label x:Name="txt" Text="hi"/>
+        <Button Text="show Image" Clicked="ShowImag_Button_Clicked"/>
         <Image x:Name="myImage" HeightRequest="300" Source=""/>
     </StackLayout>
 

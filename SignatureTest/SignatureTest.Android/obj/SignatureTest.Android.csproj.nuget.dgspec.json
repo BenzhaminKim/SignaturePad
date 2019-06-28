@@ -56,23 +56,23 @@
             },
             "Xamarin.Android.Support.Design": {
               "target": "Package",
-              "version": "[27.0.2.1, )"
+              "version": "[28.0.0.1, )"
             },
             "Xamarin.Android.Support.v4": {
               "target": "Package",
-              "version": "[27.0.2.1, )"
+              "version": "[28.0.0.1, )"
             },
             "Xamarin.Android.Support.v7.AppCompat": {
               "target": "Package",
-              "version": "[27.0.2.1, )"
+              "version": "[28.0.0.1, )"
             },
             "Xamarin.Android.Support.v7.CardView": {
               "target": "Package",
-              "version": "[27.0.2.1, )"
+              "version": "[28.0.0.1, )"
             },
             "Xamarin.Android.Support.v7.MediaRouter": {
               "target": "Package",
-              "version": "[27.0.2.1, )"
+              "version": "[28.0.0.1, )"
             },
             "Xamarin.Controls.SignaturePad.Forms": {
               "target": "Package",
@@ -80,7 +80,7 @@
             },
             "Xamarin.Forms": {
               "target": "Package",
-              "version": "[3.4.0.1008975, )"
+              "version": "[4.0.0.540366, )"
             }
           }
         }
@@ -147,9 +147,13 @@
               "target": "Package",
               "version": "[3.0.0, )"
             },
+            "Xamarin.Essentials": {
+              "target": "Package",
+              "version": "[1.1.0, )"
+            },
             "Xamarin.Forms": {
               "target": "Package",
-              "version": "[3.4.0.1008975, )"
+              "version": "[4.0.0.540366, )"
             }
           },
           "imports": [

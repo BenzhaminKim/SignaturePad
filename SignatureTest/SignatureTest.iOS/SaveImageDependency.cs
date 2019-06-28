@@ -7,12 +7,19 @@ using Foundation;
 using UIKit;
 using Xamarin.Forms;
 using SignatureTest.iOS;
+using System.IO;
 
 [assembly: Xamarin.Forms.Dependency(typeof(SaveImageDependency))]
 namespace SignatureTest.iOS
 {
     public class SaveImageDependency : ISaveImageDependency
     {
+        public string GetLocalPath()
+        {
+
+            return System.Environment.GetFolderPath(Environment.SpecialFolder.Personal);
+        }
+
         public async Task<bool> SaveImage(string directory, string filename, ImageSource img)
         {
             NSData imgData = null;
@@ -30,6 +37,26 @@ namespace SignatureTest.iOS
             NSError err = null;
             imgData.Save(savedImageFilename, NSDataWritingOptions.Atomic, out err);
             return true;
+        }
+
+        public void SavePicture(string name, Stream data, string location = "temp")
+        {
+            var documentsPath = System.Environment.GetFolderPath(Environment.SpecialFolder.Personal);
+            documentsPath = Path.Combine(documentsPath, "Orders", location);
+            Directory.CreateDirectory(documentsPath);
+
+            string filePath = Path.Combine(documentsPath, name);
+
+            byte[] bArray = new byte[data.Length];
+            using(FileStream fs = new FileStream(filePath, FileMode.OpenOrCreate))
+            {
+                using (data)
+                {
+                    data.Read(bArray, 0, (int)data.Length);
+                }
+                int length = bArray.Length;
+                fs.Write(bArray, 0, length);
+            }
         }
     }
 }
