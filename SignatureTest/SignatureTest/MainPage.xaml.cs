@@ -13,6 +13,7 @@ namespace SignatureTest
 {
     public partial class MainPage : ContentPage
     {
+        string uniqueCode = "test6";
         string imageSource;
         public string ImgSource
         {
@@ -31,30 +32,14 @@ namespace SignatureTest
            
         }
 
-        private async void BtnSaveImage_Clicked(object sender, EventArgs e)
+        private async void BtnSaveImageAzure_Clicked(object sender, EventArgs e)
         {
-            //try
-            //{
-            //    var stream = await signatureView.GetImageStreamAsync(SignatureImageFormat.Png);
-            //    ImageSource imageSource = ImageSource.FromStream(() => stream);
-            //    await DependencyService.Get<ISaveImageDependency>().SaveImage("temp", "test.png", imageSource);
-
-            //}
-            //catch (Exception ex)
-            //{
-            //    await Application.Current.MainPage.DisplayAlert("error", ex.ToString(), "cancel");
-            //    return;
-            //}
-            //finally
-            //{
-            //    await Application.Current.MainPage.DisplayAlert("Success", "저장되었습니다.", "cancel");
-            //}
-
             try
             {
+                AzureOperations blobCloud = new AzureOperations();
                 var stream = await signatureView.GetImageStreamAsync(SignatureImageFormat.Png);
 
-                DependencyService.Get<ISaveImageDependency>().SavePicture("pics.txt", stream);
+               await blobCloud.UploadFIleAsnyc(stream, uniqueCode + ".png");
             }
             catch (Exception ex)
             {
@@ -62,28 +47,19 @@ namespace SignatureTest
             }
         }
 
-        private  async void Button_Clicked(object sender, EventArgs e)
+        private  async void SaveLocalButton_Clicked(object sender, EventArgs e)
         {
             string path = DependencyService.Get<ISaveImageDependency>().GetLocalPath();
 
             var stream = await signatureView.GetImageStreamAsync(SignatureImageFormat.Png);
-            string localPath = Path.Combine(path, "new4.png");
+            string localPath = Path.Combine(path, uniqueCode + ".png");
             byte[] imgBytes = ReadFully(stream);
             File.WriteAllBytes(localPath, imgBytes);
 
         }
-        public static void SaveMemoryStream(Stream s, string FileName)
-        {
 
-            MemoryStream ms = new MemoryStream();
-            s.CopyTo(ms);
-               FileStream outStream = File.OpenWrite(FileName);
-            ms.WriteTo(outStream);
-            outStream.Flush();
-            outStream.Close();
-        }
 
-        public static byte[] ReadFully(Stream input)
+        private static byte[] ReadFully(Stream input)
         {
             byte[] buffer = new byte[16 * 1024];
             using (MemoryStream ms = new MemoryStream())
@@ -97,10 +73,16 @@ namespace SignatureTest
             }
         }
 
-        private void ShowImag_Button_Clicked(object sender, EventArgs e)
+        private async void ShowImag_Button_Clicked(object sender, EventArgs e)
         {
             string path = DependencyService.Get<ISaveImageDependency>().GetLocalPath();
-            string localPath = Path.Combine(path, "new4.png");
+            string fileName = uniqueCode + ".png";
+            string localPath = Path.Combine(path, fileName);
+            if (!File.Exists(localPath))
+            {
+                AzureOperations blobCloud = new AzureOperations();
+             await  blobCloud.DownloadFileFromBlob(fileName, localPath);
+            }
             ImageSource source = ImageSource.FromFile(localPath);
             myImage.Source = source;
         }

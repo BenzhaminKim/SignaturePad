@@ -576,4 +576,3 @@ D:\Programming\CSharp\Practice\Xamarin\SignatureTest\SignatureTest\SignatureTest
 D:\Programming\CSharp\Practice\Xamarin\SignatureTest\SignatureTest\SignatureTest.Android\obj\Debug\81\android\src\md5d630c3d3bfb5f5558520331566132d97\SensorListener.java
 D:\Programming\CSharp\Practice\Xamarin\SignatureTest\SignatureTest\SignatureTest.Android\obj\Debug\81\android\src\md5d630c3d3bfb5f5558520331566132d97\SingleLocationListener.java
 D:\Programming\CSharp\Practice\Xamarin\SignatureTest\SignatureTest\SignatureTest.Android\obj\Debug\81\android\src\md5d630c3d3bfb5f5558520331566132d97\TextToSpeechImplementation.java
-D:\Programming\CSharp\Practice\Xamarin\SignatureTest\SignatureTest\SignatureTest.Android\obj\Debug\81\android\assets\System.Drawing.Common.dll

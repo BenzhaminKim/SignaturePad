@@ -14,10 +14,10 @@
                 SignatureLineColor="#B8860B" BackgroundColor="#FAFAD2" />
 
         <Button
-            x:Name="btnSaveImage" Text="Save Image" Clicked="BtnSaveImage_Clicked"
+            x:Name="btnSaveImage" Text="Save Azure" Clicked="BtnSaveImageAzure_Clicked"
             HorizontalOptions="End" VerticalOptions="End" Grid.Row="2" />
 
-        <Button Text="Change Text" Clicked="Button_Clicked" />
+        <Button Text="SaveLocal" Clicked="SaveLocalButton_Clicked" />
 
         <Button Text="show Image" Clicked="ShowImag_Button_Clicked"/>
         <Image x:Name="myImage" HeightRequest="300" Source=""/>

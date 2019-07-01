@@ -45,10 +45,7 @@ namespace SignatureTest.Droid
                success = await photo.CompressAsync(Bitmap.CompressFormat.Png, 100, outputStream);
              
             }
-
-
             return success;
-
         }
 
         public void SavePicture(string name, Stream data, string location = "temp")

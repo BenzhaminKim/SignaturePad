@@ -32,6 +32,22 @@ namespace SignatureTest
             var directory = _testContainer.GetDirectoryReference(todayDate);
             var blobRef = directory.GetBlockBlobReference(uniqueBlobName);
             await blobRef.UploadFromStreamAsync(stream);
+            
+        }
+        public async Task UploadFIleAsnyc(Stream stream,string fileName)
+        {
+            var blobRef = _testContainer.GetBlockBlobReference(fileName);
+            await blobRef.UploadFromStreamAsync(stream);
+        }
+
+        public async Task DownloadFileFromBlob(string fileName, string localFilePath)
+        {
+            CloudBlob blob = _testContainer.GetBlobReference(fileName);
+            using (var fileStream = File.OpenWrite(localFilePath))
+            {
+              await  blob.DownloadToStreamAsync(fileStream);
+            }
         }
     }
+
 }
